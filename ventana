@@ -1,0 +1,33 @@
+import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+public class Ventana {
+    private JTabbedPane tabbedPane1;
+    private JTextField txtCodigo;
+    private JComboBox cboMarca;
+    private JComboBox cboCilindraje;
+    private JTextField txtPrecio;
+    private JTextArea txtMostrarIngresar;
+    private JButton btnIngresar;
+    private JComboBox cboBuscarMarca;
+    private JTextField txtBuscarPrecio;
+    private JTextArea txtMostrarBuscar;
+    private JButton btnBuscar;
+    private JComboBox cboListarCarros;
+    private JTextArea txtMostrarListar;
+    private JButton btnListar;
+    
+    
+    
+
+
+    public Ventana() {
+        btnIngresar.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+            }
+        });
+    }
+}
